@@ -1,0 +1,5 @@
+- 프린트하는 명령어
+System.out.println("");
+
+- 자바의 동작원리
+자바 소스코드 -> 컴파일(컴푸터가 해석할수있도록 변경해주는 단계) -> Java Application (.class) -> Run(구동시켜줌) -> Java Virtual Machine -> Run -> computer
