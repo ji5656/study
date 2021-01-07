@@ -3,3 +3,39 @@ System.out.println("");
 
 - 자바의 동작원리
 자바 소스코드 -> 컴파일(컴푸터가 해석할수있도록 변경해주는 단계) -> Java Application (.class) -> Run(구동시켜줌) -> Java Virtual Machine -> Run -> computer
+
+Concepts of OOP
+
+- What Is an Object?
+
+An object is a software bundle of related state and behavior. Software objects are often used to model the real-world objects that you find in everyday life. 
+EX)
+ Dogs have state (name, color, breed, hungry) and behavior (barking, fetching, wagging tail). Bicycles also have state (current gear, current pedal cadence, current speed) and behavior (changing gear, changing pedal cadence, applying brakes). 
+ An object stores its state in fields (variables in some programming languages) and exposes its behavior through methods (functions in some programming languages). Methods operate on an object's internal state and serve as the primary mechanism for object-to-object communication.
+
+Bundling code into individual software objects provides a number of benefits, including:
+
+Modularity: The source code for an object can be written and maintained independently of the source code for other objects. Once created, an object can be easily passed around inside the system.
+
+Information-hiding: By interacting only with an object's methods, the details of its internal implementation remain hidden from the outside world.
+
+Code re-use: If an object already exists (perhaps written by another software developer), you can use that object in your program. This allows specialists to implement/test/debug complex, task-specific objects, which you can then trust to run in your own code.
+
+Pluggability and debugging ease: If a particular object turns out to be problematic, you can simply remove it from your application and plug in a different object as its replacement. This is analogous to fixing mechanical problems in the real world. If a bolt breaks, you replace it, not the entire machine.
+
+What Is a Class?
+A class is a blueprint or prototype from which objects are created. 
+
+What Is Inheritance?
+Inheritance provides a powerful and natural mechanism for organizing and structuring your software. 
+
+
+What Is an Interface?
+An interface is a contract between a class and the outside world. When a class implements an interface, it promises to provide the behavior published by that interface. 
+
+
+What Is a Package?
+A package is a namespace for organizing classes and interfaces in a logical manner. Placing your code into packages makes large software projects easier to manage. 
+
+
+
